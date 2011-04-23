@@ -1,4 +1,5 @@
 //warning: blending code is pretty terrible; but the idea is there ...
+//built using some samples from http://www.lighthouse3d.com/
 
 #version 120
 
@@ -17,11 +18,10 @@ void main()
 	vec4 color = ambient;
 	vec4 newDiffuse = texture2D( diffuseTex, gl_TexCoord[0].st );
 	
-	/* a fragment shader can't write a verying variable, hence we need
-	a new variable to store the normalized interpolated normal */
+	// a fragment shader can't write a varying variable, hence we need a new variable to store the normalized interpolated normal */
 	n = normalize(normal);
 	
-	/* compute the dot product between normal and ldir */
+	//compute the dot product between normal and ldir
 	NdotL = max(dot(n,lightDir),0.5); //hacking b/c normals are fucked up on fish: should be greater than 0.0 ... 0.5 is hacked num
 
 	vec3 reflectVec = -normalize( reflect( lightDir, normal ) );
