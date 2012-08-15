@@ -19,12 +19,12 @@
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		DFD9685713624EB000D8F074 /* BasicBlender_frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DFD9685313624EB000D8F074 /* BasicBlender_frag.glsl */; };
-		DFD9685813624EB000D8F074 /* BasicBlender_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DFD9685413624EB000D8F074 /* BasicBlender_vert.glsl */; };
-		DFD9686D13626E1D00D8F074 /* basicTexture_proj_frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DFD9686B13626E1D00D8F074 /* basicTexture_proj_frag.glsl */; };
-		DFD9686E13626E1D00D8F074 /* basicTexture_proj_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DFD9686C13626E1D00D8F074 /* basicTexture_proj_vert.glsl */; };
-		DFD9687313626FFC00D8F074 /* grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFD9687113626FFC00D8F074 /* grass.jpg */; };
-		DFD9687413626FFC00D8F074 /* trollface.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFD9687213626FFC00D8F074 /* trollface.jpg */; };
+		DF3A1B5215DBEE5E0049E24A /* BasicBlender_frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DF3A1B4B15DBEE5E0049E24A /* BasicBlender_frag.glsl */; };
+		DF3A1B5315DBEE5E0049E24A /* BasicBlender_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DF3A1B4C15DBEE5E0049E24A /* BasicBlender_vert.glsl */; };
+		DF3A1B5415DBEE5E0049E24A /* basicTexture_proj_frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DF3A1B4D15DBEE5E0049E24A /* basicTexture_proj_frag.glsl */; };
+		DF3A1B5515DBEE5E0049E24A /* basicTexture_proj_vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = DF3A1B4E15DBEE5E0049E24A /* basicTexture_proj_vert.glsl */; };
+		DF3A1B5615DBEE5E0049E24A /* grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3A1B5015DBEE5E0049E24A /* grass.jpg */; };
+		DF3A1B5715DBEE5E0049E24A /* trollface.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF3A1B5115DBEE5E0049E24A /* trollface.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,13 +46,13 @@
 		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Projective_Textures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projective_Textures.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFD9685013624EA400D8F074 /* Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Resources.h; sourceTree = "<group>"; };
-		DFD9685313624EB000D8F074 /* BasicBlender_frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BasicBlender_frag.glsl; sourceTree = "<group>"; };
-		DFD9685413624EB000D8F074 /* BasicBlender_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BasicBlender_vert.glsl; sourceTree = "<group>"; };
-		DFD9686B13626E1D00D8F074 /* basicTexture_proj_frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = basicTexture_proj_frag.glsl; sourceTree = "<group>"; };
-		DFD9686C13626E1D00D8F074 /* basicTexture_proj_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = basicTexture_proj_vert.glsl; sourceTree = "<group>"; };
-		DFD9687113626FFC00D8F074 /* grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grass.jpg; sourceTree = "<group>"; };
-		DFD9687213626FFC00D8F074 /* trollface.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trollface.jpg; sourceTree = "<group>"; };
+		DF3A1B3515DBEAC40049E24A /* Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = "../../../../../../../Developer/git/myGits/Cinder/Projective-Texture-Shader-in-Cinder/include/Resources.h"; sourceTree = "<group>"; };
+		DF3A1B4B15DBEE5E0049E24A /* BasicBlender_frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BasicBlender_frag.glsl; sourceTree = "<group>"; };
+		DF3A1B4C15DBEE5E0049E24A /* BasicBlender_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BasicBlender_vert.glsl; sourceTree = "<group>"; };
+		DF3A1B4D15DBEE5E0049E24A /* basicTexture_proj_frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = basicTexture_proj_frag.glsl; sourceTree = "<group>"; };
+		DF3A1B4E15DBEE5E0049E24A /* basicTexture_proj_vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = basicTexture_proj_vert.glsl; sourceTree = "<group>"; };
+		DF3A1B5015DBEE5E0049E24A /* grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grass.jpg; sourceTree = "<group>"; };
+		DF3A1B5115DBEE5E0049E24A /* trollface.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trollface.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +143,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DFD9687013626FFC00D8F074 /* textures */,
-				DFD9685213624EB000D8F074 /* shaders */,
+				DF3A1B4A15DBEE5E0049E24A /* shaders */,
+				DF3A1B4F15DBEE5E0049E24A /* textures */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				00CCAF14116A9FEE008396D5 /* CinderApp.icns */,
 			);
@@ -160,35 +160,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF3A1B4A15DBEE5E0049E24A /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				DF3A1B4B15DBEE5E0049E24A /* BasicBlender_frag.glsl */,
+				DF3A1B4C15DBEE5E0049E24A /* BasicBlender_vert.glsl */,
+				DF3A1B4D15DBEE5E0049E24A /* basicTexture_proj_frag.glsl */,
+				DF3A1B4E15DBEE5E0049E24A /* basicTexture_proj_vert.glsl */,
+			);
+			name = shaders;
+			path = ../resources/shaders;
+			sourceTree = "<group>";
+		};
+		DF3A1B4F15DBEE5E0049E24A /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				DF3A1B5015DBEE5E0049E24A /* grass.jpg */,
+				DF3A1B5115DBEE5E0049E24A /* trollface.jpg */,
+			);
+			name = textures;
+			path = ../resources/textures;
+			sourceTree = "<group>";
+		};
 		DFD9684F13624EA400D8F074 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				DFD9685013624EA400D8F074 /* Resources.h */,
+				DF3A1B3515DBEAC40049E24A /* Resources.h */,
 			);
 			name = include;
 			path = CinderProjects/Projective_Textures/include;
-			sourceTree = DEVELOPER_DIR;
-		};
-		DFD9685213624EB000D8F074 /* shaders */ = {
-			isa = PBXGroup;
-			children = (
-				DFD9686B13626E1D00D8F074 /* basicTexture_proj_frag.glsl */,
-				DFD9686C13626E1D00D8F074 /* basicTexture_proj_vert.glsl */,
-				DFD9685313624EB000D8F074 /* BasicBlender_frag.glsl */,
-				DFD9685413624EB000D8F074 /* BasicBlender_vert.glsl */,
-			);
-			name = shaders;
-			path = CinderProjects/Projective_Textures/resources/shaders;
-			sourceTree = DEVELOPER_DIR;
-		};
-		DFD9687013626FFC00D8F074 /* textures */ = {
-			isa = PBXGroup;
-			children = (
-				DFD9687113626FFC00D8F074 /* grass.jpg */,
-				DFD9687213626FFC00D8F074 /* trollface.jpg */,
-			);
-			name = textures;
-			path = CinderProjects/Projective_Textures/resources/textures;
 			sourceTree = DEVELOPER_DIR;
 		};
 /* End PBXGroup section */
@@ -239,12 +239,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */,
-				DFD9685713624EB000D8F074 /* BasicBlender_frag.glsl in Resources */,
-				DFD9685813624EB000D8F074 /* BasicBlender_vert.glsl in Resources */,
-				DFD9686D13626E1D00D8F074 /* basicTexture_proj_frag.glsl in Resources */,
-				DFD9686E13626E1D00D8F074 /* basicTexture_proj_vert.glsl in Resources */,
-				DFD9687313626FFC00D8F074 /* grass.jpg in Resources */,
-				DFD9687413626FFC00D8F074 /* trollface.jpg in Resources */,
+				DF3A1B5215DBEE5E0049E24A /* BasicBlender_frag.glsl in Resources */,
+				DF3A1B5315DBEE5E0049E24A /* BasicBlender_vert.glsl in Resources */,
+				DF3A1B5415DBEE5E0049E24A /* basicTexture_proj_frag.glsl in Resources */,
+				DF3A1B5515DBEE5E0049E24A /* basicTexture_proj_vert.glsl in Resources */,
+				DF3A1B5615DBEE5E0049E24A /* grass.jpg in Resources */,
+				DF3A1B5715DBEE5E0049E24A /* trollface.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,13 +309,13 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = ../../../cinder_0.8.2_mac;
+				CINDER_PATH = /Developer/cinder_0.8.4_mac;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
 			};
 			name = Debug;
@@ -325,13 +325,13 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = ../../../cinder_0.8.2_mac;
+				CINDER_PATH = /Developer/cinder_0.8.4_mac;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
+				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
 			};
 			name = Release;
